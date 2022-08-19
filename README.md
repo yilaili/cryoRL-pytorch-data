@@ -1,15 +1,3 @@
-# CryoRL-pytorch-data
-
-Dataset ("Aldolase") used in https://github.com/IBM/CryoRL-pytorch and [CryoRL: Reinforcement Learning Enables Efficient Cryo-EM Data Collection](https://arxiv.org/abs/2204.07543).
-
-The dataset consists of png files cropped and converted from original cryo-EM images in the mrc format.
-
-Note that our next paper [Optimized path planning surpasses human efficiency in cryo-EM imaging](https://doi.org/10.1101/2022.06.17.496614) used a regressor instead of a classifier. The train-test split was slightly different as well.
-
-## Data preparation description
-
-Patch level images were converted from mrc to png format (8 bit) using e2proc2d.py.
-
-With hole coordinates from Leginon database (obtained when collecting the systematic dataset as ground truth), individual hole images were cropped with boxes of 150x150 px.
-
-The CTFMaxRes values were also obtained from Leginon database and matched with the corresponding hole images.
+version https://git-lfs.github.com/spec/v1
+oid sha256:1b4ad19d307c76946b70b3c035765b5a1f002d5e852ba77c8c9041840a014198
+size 968
